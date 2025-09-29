@@ -1,4 +1,3 @@
-// Products List
 const products = [
   { id: 1, name: "Men's T-Shirt", price: 799, image: "product1.jpg", category: "men" },
   { id: 2, name: "Women's Dress", price: 1299, image: "product2.jpg", category: "women" },
@@ -66,3 +65,4 @@ function removeItem(index) {
   updateCart();
 }
 showProducts();
+
